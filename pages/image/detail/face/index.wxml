@@ -1,0 +1,15 @@
+<!--pages/image/detail/index.wxml-->
+<view class="pageContainer">
+   <view class='topImage' bindtap="uploadImg">
+     <image mode='aspectFit' src='{{imagePath}}'></image>
+   </view>
+
+   <view class="result">
+    <view class="info">
+      <text class="label">年龄：{{imageData.age}}</text>
+    </view>
+     <view class="info">
+      <text class="label">得分：{{imageData.beauty}}</text>
+    </view>
+    </view>
+</view>

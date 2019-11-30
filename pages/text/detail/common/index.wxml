@@ -1,0 +1,20 @@
+<!--pages/image/detail/index.wxml-->
+<view class="pageContainer">
+   <view class='topImage' bindtap="uploadImg">
+     <image mode='aspectFit' src='{{imagePath}}'></image>
+   </view>
+
+   <view class="result">
+
+    <view class="info" wx:for="{{imageData}}" wx:key="{{index}}" >
+      <text class="label">第{{index+1}}个：</text>
+        <text class="desc">{{item.words}}</text> 
+       <text class="copy" bindtap='copyData' data-index="{{index}}">复制</text>
+    </view>
+
+    <view class="copyAll">
+    <button type="default" bindtap="copyAll">一键复制所有</button>
+    </view>
+   
+    </view>
+</view>

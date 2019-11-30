@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/image/index/index",
+    "pages/image/detail/caipin/index", 
+    "pages/image/detail/dongwu/index",
+    "pages/image/detail/zhiwu/index",
+    "pages/image/detail/car/index",
+    "pages/image/detail/shucai/index",
+    "pages/image/detail/huobi/index",
+    "pages/image/detail/logo/index",
+    "pages/image/detail/dibiao/index",
+    "pages/image/detail/face/index",
+
+    "pages/text/index/index",
+     "pages/text/detail/common/index" 
+  ],
+"tabBar": {
+  "selectedColor": "#F0E68C",
+  "list": [
+    {
+      "pagePath": "pages/image/index/index",
+      "text": "图片识别",
+      "iconPath": "static/images/image.png",
+      "selectedIconPath": "static/images/image_selected.png"
+    },
+    {
+      "pagePath": "pages/text/index/index",
+      "text": "文字识别",
+      "iconPath": "static/images/text.png",
+      "selectedIconPath": "static/images/text_selected.png"
+    }
+    
+  ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F0E68C",
+    "navigationBarTitleText": "识图易",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

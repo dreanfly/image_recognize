@@ -1,0 +1,15 @@
+<!--pages/image/detail/index.wxml-->
+<view class="pageContainer">
+   <view class='topImage' bindtap="uploadImg">
+     <image mode='aspectFit' src='{{imagePath}}'></image>
+   </view>
+
+   <view class="result">
+    <view class="info">
+      <text class="label">地标名称：</text>
+      <text class="desc">{{imageData.name}}</text>
+    </view>
+    </view>
+   
+   
+</view>

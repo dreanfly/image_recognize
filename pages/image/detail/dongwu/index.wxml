@@ -1,0 +1,24 @@
+<!--pages/image/detail/index.wxml-->
+<view class="pageContainer">
+   <view class='topImage' bindtap="uploadImg">
+     <image mode='aspectFit' src='{{imagePath}}'></image>
+   </view>
+
+   <view class="result" wx:for="{{imageData}}" wx:key="{{index}}">
+    <view class="info">
+      <text class="label">动物名称：</text>
+      <text class="desc">{{item.name}}</text>
+    </view>
+   
+    <view class="info">
+      <text class="label">相似度：</text>
+          <text class="desc">{{item.probability}}</text>
+
+      </view>
+      <view class="info">
+      <text class="label">相关介绍：</text>
+      <text class="desc">{{item.description}}</text>
+
+      </view>
+    </view>
+</view>

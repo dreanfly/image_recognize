@@ -1,0 +1,45 @@
+
+
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  /* width:300px; */
+  justify-content: center;
+}
+
+.menu .form{
+  width:100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:15rpx;
+  border:1px solid #F0E68C;
+   margin:15rpx; 
+  border-radius: 4%;
+  align-items: center;
+
+}
+
+.menu .form image{
+  width:130rpx;
+  height:130rpx;
+}
+
+.menu .form text{
+  margin-top:10rpx;
+  margin-bottom:10rpx;
+}
+
+.tishi{
+  margin-top:20rpx;
+  font-size:12px;
+  margin-left:100rpx;
+  margin-right:100rpx;
+  /* padding:30rpx; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  color:red;
+}

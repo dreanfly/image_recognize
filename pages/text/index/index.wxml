@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+ <view class="menu">
+    <view class="form" bindtap="uploadImg" data-type="0">
+       <image src="/static/images/text_selected.png"></image>
+       <text>文字识别</text>
+    </view>
+<!-- 
+    <view class="form" bindtap="uploadImg" data-type="1">
+       <image src="/static/images/text_high.png"></image>
+       <text>高精度识别</text>
+    </view> -->
+<!-- 
+      <view class="form" bindtap="uploadImg" data-type="1">
+       <image src="/static/images/card.png"></image>
+       <text>银行卡识别</text>
+    </view> -->
+
+      <!-- <view class="form" bindtap="uploadImg" data-type="8">
+       <image src="/static/images/hongjiu.png"></image>
+       <text>红酒识别</text>
+    </view> -->
+
+  
+  </view>
+   <text class="tishi">
+  温馨提示:请上传图像清楚，含义明确的图片哦，否则可能无法正确识别出结果
+  </text>
+</view>

@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="container">
+ <view class="menu">
+    <view class="form" bindtap="uploadImg" data-type="0">
+       <image src="/static/images/caipin.png"></image>
+       <text>菜品识别</text>
+    </view>
+
+    <view class="form" bindtap="uploadImg" data-type="1">
+       <image src="/static/images/dongwu.png"></image>
+       <text>动物识别</text>
+    </view>
+
+    <view class="form" bindtap="uploadImg" data-type="2">
+       <image src="/static/images/zhiwu.png"></image>
+       <text>植物识别</text>
+    </view>
+
+    <view class="form" bindtap="uploadImg" data-type="3">
+       <image src="/static/images/car.png"></image>
+       <text>车辆识别</text>
+    </view>
+    <view class="form" bindtap="uploadImg" data-type="4">
+       <image src="/static/images/shucai.png"></image>
+       <text>果蔬识别</text>
+    </view>
+    <view class="form" bindtap="uploadImg" data-type="5">
+       <image src="/static/images/huobi.png"></image>
+       <text>货币识别</text>
+    </view>
+  <view class="form" bindtap="uploadImg" data-type="6">
+       <image src="/static/images/logo.png"></image>
+       <text>logo识别</text>
+    </view>
+    <view class="form" bindtap="uploadImg" data-type="7">
+       <image src="/static/images/dibiao.png"></image>
+       <text>地标识别</text>
+    </view>
+
+    <!-- <view class="form" bindtap="uploadImg" data-type="8">
+       <image src="/static/images/face.png"></image>
+       <text>人脸识别</text>
+    </view> -->
+
+  
+  </view>
+
+  <text class="tishi">
+  温馨提示:请上传图像清楚，含义明确的图片哦，否则可能无法正确识别出结果
+  </text>
+</view>

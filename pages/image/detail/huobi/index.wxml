@@ -1,0 +1,28 @@
+<!--pages/image/detail/index.wxml-->
+<view class="pageContainer">
+   <view class='topImage' bindtap="uploadImg">
+     <image mode='aspectFit' src='{{imagePath}}'></image>
+   </view>
+
+   <view class="result" >
+    <view class="info">
+      <text class="label">货币名称：</text>
+      <text class="desc">{{imageData.currencyName}}</text>
+    </view>
+    <view class="info">
+      <text class="label">货币代码：</text>
+          <text class="desc">{{imageData.currencyCode}}</text>
+
+    </view>
+    <view class="info">
+      <text class="label">货币面值</text>
+          <text class="desc">{{imageData.currencyDenomination}}</text>
+
+      </view>
+      <view class="info">
+      <text class="label">货币年份</text>
+      <text class="desc">{{imageData.year}}</text>
+
+      </view>
+    </view>
+</view>

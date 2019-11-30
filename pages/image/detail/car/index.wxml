@@ -1,0 +1,28 @@
+<!--pages/image/detail/index.wxml-->
+<view class="pageContainer">
+   <view class='topImage' bindtap="uploadImg">
+     <image mode='aspectFit' src='{{imagePath}}'></image>
+   </view>
+
+   <view class="result" wx:for="{{imageData}}" wx:key="{{index}}">
+    <view class="info">
+      <text class="label">车辆名称：</text>
+      <text class="desc">{{item.name}}</text>
+    </view>
+    <view class="info">
+      <text class="label">年份信息：</text>
+          <text class="desc">{{item.year}}</text>
+
+    </view>
+    <view class="info">
+      <text class="label">相似度：</text>
+          <text class="desc">{{item.probability}}</text>
+
+      </view>
+      <view class="info">
+      <text class="label">其他介绍：</text>
+      <text class="desc">{{item.description}}</text>
+
+      </view>
+    </view>
+</view>

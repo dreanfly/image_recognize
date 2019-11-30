@@ -1,0 +1,49 @@
+/* pages/image/detail/index.wxss */
+
+
+page{
+background-color:#eee;
+}
+
+.topImage{
+  background-color:#fff;
+
+}
+
+.topImage image{
+  width:100%;
+}
+
+.pageContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.result{
+  display: flex;
+  flex-direction: column;
+  margin-top:30rpx;
+}
+
+.info{
+  padding-left:30rpx;
+  padding-right:30rpx;
+  background-color:#fff;
+  min-height:70rpx;
+  display: flex;
+  align-items: center;
+}
+
+.info .label{
+  font-size:25px;
+  text-align:center;
+}
+
+/* .info .desc{
+  font-size:14px;
+  color:#8a8a8a;
+  width:75%;
+  
+} */
