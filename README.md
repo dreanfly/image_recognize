@@ -11,5 +11,5 @@
 # 后台api：  
 采用百度的图片识别api 
 # 小程序预览地址：  
-![](https://raw.githubusercontent.com/dreanfly/image_recognize/master/static/images/gh_1c9fe14686a0_258.jpg)
+![二维码图片](https://raw.githubusercontent.com/dreanfly/image_recognize/master/static/images/gh_1c9fe14686a0_258.jpg)
 
